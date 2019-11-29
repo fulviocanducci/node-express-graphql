@@ -1,0 +1,22 @@
+{
+  todoadd(input: {id: 0, description: "Reg 9", done: 1}) {
+    id
+    description
+    done
+  }
+  todoedit(input: {id: 1, description: "Reg 1", done: 0}) {
+    id
+    description
+    done
+  }
+  todos {
+    id
+    description
+    done
+  }  
+  tododestroy(id:1) {
+    count, 
+    description,
+    status
+  }
+}
